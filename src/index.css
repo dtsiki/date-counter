@@ -1,7 +1,18 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
 body {
-  background: #000000;
-  color: #ffffff;
+  background: var(--black);
+  background-image: url("./../public/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   font-family: "Roboto", sans-serif;
+  color: var(--white);
+  text-shadow: 0px 0px 10px rgba(var(--black), 0.2);
 }
 
 .wrapper {
