@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { calculateTimeLeft } from "./utils";
 
 export const App: React.FC = () => {
-  const targetDate = useMemo(() => new Date("2025-05-07T00:00:00"), []);
+  const targetDate = useMemo(() => new Date("2025-05-07T17:00:00"), []);
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(targetDate));
 
